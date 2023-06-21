@@ -1,0 +1,17 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #a8a37a;
+    padding: 10px;
+}
+
+.navbar a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.navbar-menu {
+    /* Add your menu styles here */
+}

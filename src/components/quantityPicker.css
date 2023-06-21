@@ -1,0 +1,15 @@
+.container-quantityPicker {
+    display: flex;
+    align-items: center;
+}
+
+.btn-quantityPicker {
+    padding: 5px 10px;
+    border: none;
+    background-color: #a8a37a;
+    cursor: pointer;
+}
+
+.label-quantityPicker {
+    margin: 0 10px;
+}
