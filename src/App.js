@@ -2,18 +2,15 @@ import "./App.css";
 import {React} from 'react';
 import NavBar from "./components/navBar";
 import Footer from "./components/footer";
-import QuantityPicker from "./components/quantityPicker";
+import Catalog from "./pages/catalog";
 
 
 function App() {
   return (
     <div className="App">
       <NavBar/>
-      <h1> Hello from React </h1>
-      <QuantityPicker/>
-      <QuantityPicker/>
-      <QuantityPicker/>
-      <QuantityPicker/>
+      <h1> Menu goes here</h1>
+      <Catalog/>
       <Footer/>
     </div>
   );
