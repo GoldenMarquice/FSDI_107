@@ -1,15 +1,27 @@
 import "./catalog.css";
 import Product from "../components/product";
+import { useEffect, useState } from "react";
+import DataService from "../sources/dataServices";
 
 function Catalog() {
+    const [products, setProducts] = useState([]);
+
+    useEffect(function () {
+        console.log("component loaded");
+        loadCatalog();
+    });
+
+    function loadCatalog() {
+        let service = new DataService();
+        let prods = service.getProducts();
+        console.log(prods);
+        setProducts(prods);
+    }
     return (
         <div className="catalog">
-            <h1> Check out our amazing products</h1>
-            <Product />
-            <Product />
-            <Product />
-            <Product />
-            <Product />
+            <h1> Look at out menu</h1>
+
+            {products.map((p) => ( < Product data={p} />  ))}
         </div>
     );
 }

@@ -1,53 +1,63 @@
 let catalog = [
     {
-        "title": 'Orange',
-        "category": 'fruits',
+        "title": 'tacos',
+        "category": 'food',
         "price": 12.99,
-        "image": "somewhere",
+        "image": "tacos.jpeg",
         "id": '1'
     },
     {
-        "title": 'Orange',
-        "category": 'fruits',
+        "title": 'sandwich',
+        "category": 'food',
         "price": 12.99,
-        "image": "somewhere",
+        "image": "sandwich.webp",
         "id": '2'
     },
     {
-        "title": 'Orange',
-        "category": 'fruits',
+        "title": 'salmon',
+        "category": 'food',
         "price": 12.99,
-        "image": "somewhere",
+        "image": "salmon.jpeg",
         "id": '3'
     },
     {
-        "title": 'Orange',
-        "category": 'fruits',
+        "title": 'oxtail',
+        "category": 'food',
         "price": 12.99,
-        "image": "somewhere",
+        "image": "oxtail.jpeg",
         "id": '4'
     },
     {
-        "title": 'Orange',
-        "category": 'fruits',
+        "title": 'fried chicken',
+        "category": 'food',
         "price": 12.99,
-        "image": "somewhere",
+        "image": "fried chicken.jpg",
         "id": '5'
     },
     {
-        "title": 'Orange',
-        "category": 'fruits',
+        "title": 'fried catfish',
+        "category": 'food',
         "price": 12.99,
-        "image": "somewhere",
+        "image": "fried catfish.jpeg",
         "id": '6'
     },
     {
-        "title": 'Orange',
-        "category": 'fruits',
+        "title": 'burgers',
+        "category": 'food',
         "price": 12.99,
-        "image": "somewhere",
+        "image": "burgers.jpeg",
         "id": '7'
     }
 
 ];
+
+class DataService{
+    getProducts ()
+    {
+        return catalog;
+    }
+
+}
+
+export default DataService;
 //dictionary - many object literal 

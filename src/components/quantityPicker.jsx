@@ -22,9 +22,9 @@ function decrease ()
 }
     return(
         <div className="container-quantityPicker"> 
-        <button disabled= {quantity === 1} className="btn-quantityPicker" onClick={decrease}> - </button>
+        <button disabled= {quantity === 1} className="btn btn-primary btn-sm" onClick={decrease}> - </button>
         <label>{quantity}</label>
-        <button className="btn-quantityPicker" onClick={increase}> + </button>
+        <button className="btn btn-primary btn-sm" onClick={increase}> + </button>
         </div>
 
 
