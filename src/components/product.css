@@ -6,3 +6,8 @@
     width: 200px;
     border-radius: 4px;
 }
+
+.product-container img{
+    width: 180px;
+    height: 140px;
+}

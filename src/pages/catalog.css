@@ -1,5 +1,5 @@
 .catalog {
-    display: flex;
+    display: inline;
     flex-wrap: wrap;
     justify-content: space-between;
 }
@@ -14,6 +14,10 @@
     margin: 10px;
 }
 
+.catalog .btn-filter {
+    margin: 5px;
+    height: fit-content;
+}
 /*In the CSS code above, the .catalog class is set to 
 display: flex; to create a flex container.
 The flex-wrap: wrap; property allows the products to wrap 
